@@ -9,9 +9,9 @@
       p Right panel content goes here
 
   // Left panel with reveal effect
-  f7-panel(left cover)
+  f7-panel(left,cover)
     // Left view
-    f7-view.view-left(navbar-through, :dynamic-navbar='true')
+    f7-view.view-left(name='left', navbar-through, :dynamic-navbar='true')
       f7-navbar
         f7-nav-center(sliding) Left View
       f7-pages
